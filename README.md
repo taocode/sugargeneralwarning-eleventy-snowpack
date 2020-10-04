@@ -1,5 +1,7 @@
 # Sugar General Warning
 
+An exploration into using 11ty to produce this site and host on netlify.
+
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
 ## Available Scripts
