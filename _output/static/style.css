@@ -29,7 +29,7 @@ body {
 h1 {
     text-transform: uppercase;
     margin: 1.25em 0 0;
-    font-size: 2.5em;
+    font-size: 2.45em;
     font-weight: 500;
 }
 
@@ -97,7 +97,7 @@ ol ol {
     margin-bottom: 20vh;
 }
 .primary a {
-    text-decoration: none;
+    text-decoration-color: rgba(0, 0, 255, 0.3);
     color: black;
     transition: all 0.2s ease;
 }
@@ -112,6 +112,7 @@ ol ol {
 }
 .references {
     text-align: left;
+    font-size: 15pt;
 }
 .text-center {
     text-align: center;
@@ -122,8 +123,8 @@ a {
 .permalink {
     opacity: 0.1;
     text-decoration-color: rgba(0,0,0,0.2);
-    vertical-align: super;
-    font-size: 0.7em;
+    /* vertical-align: super;
+    font-size: 0.7em; */
 }
 :hover > .permalink {
     opacity: 1;
@@ -136,3 +137,46 @@ a {
 :target .permalink {
     opacity: 1;
 }
+
+/* oswald-300 - latin */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: url('./fonts/oswald-v35-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/oswald-v35-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/oswald-v35-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/oswald-v35-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/oswald-v35-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/oswald-v35-latin-300.svg#Oswald') format('svg'); /* Legacy iOS */
+  }
+  /* oswald-regular - latin */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('./fonts/oswald-v35-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/oswald-v35-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/oswald-v35-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/oswald-v35-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/oswald-v35-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/oswald-v35-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
+  }
+  /* oswald-600 - latin */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: url('./fonts/oswald-v35-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/oswald-v35-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/oswald-v35-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/oswald-v35-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/oswald-v35-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/oswald-v35-latin-600.svg#Oswald') format('svg'); /* Legacy iOS */
+  }
