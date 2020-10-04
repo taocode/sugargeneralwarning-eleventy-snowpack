@@ -4,7 +4,7 @@
   "license": "BSD-3-Clause-Attribution",
   "description": "",
   "homepage": "https://sugargeneralwarning.com",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
