@@ -1,31 +1,31 @@
 {
-  "name" : "sugargeneralwarning",
-  "author": {
-    "name" : "Mark Jones",
-    "email" : "mark@taocode.com",
-    "url" : "https://taocode.com",
+  "name":"sugargeneralwarning",
+  "author":{
+     "name":"Mark Jones",
+     "email":"mark@taocode.com",
+     "url":"https://taocode.com"
   },
-  "license": "BSD-3-Clause-Attribution",
-  "homepage": "https://sugargeneralwarning.com",
-  "version": "1.2.0",
+  "license":"BSD-3-Clause-Attribution",
+  "homepage":"https://sugargeneralwarning.com",
+  "version":"1.2.0",
   "scripts":{
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
-    "format": "prettier --write \"src/**/*.js\"",
-    "lint": "prettier --check \"src/**/*.js\""
+     "start":"snowpack dev",
+     "build":"snowpack build",
+     "test":"echo \"This template does not include a test runner by default.\" && exit 1",
+     "format":"prettier --write \"src/**/*.js\"",
+     "lint":"prettier --check \"src/**/*.js\""
   },
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/taocode/sugargeneralwarning-eleventy-snowpack"
+  "repository":{
+     "type":"git",
+     "url":"https://github.com/taocode/sugargeneralwarning-eleventy-snowpack"
   },
-  "dependencies": {
-    "canvas-confetti": "^1.2.0"
+  "dependencies":{
+     "canvas-confetti":"^1.2.0"
   },
-  "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "@snowpack/plugin-run-script": "^2.1.3",
-    "prettier": "^2.0.5",
-    "snowpack": "^2.13.0"
+  "devDependencies":{
+     "@11ty/eleventy":"^0.10.0",
+     "@snowpack/plugin-run-script":"^2.1.3",
+     "prettier":"^2.0.5",
+     "snowpack":"^2.13.0"
   }
 }
