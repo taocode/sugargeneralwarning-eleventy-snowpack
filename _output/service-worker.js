@@ -28,11 +28,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "about/index.html",
-    "revision": "6d05e76007a45ffb8fca6aa8b60a3b36"
+    "revision": "3dbc710ee553122e5c46f8e82bdc9bb7"
   },
   {
     "url": "index.html",
-    "revision": "75e59a544877cac3ce8971a4e755a060"
+    "revision": "ba4d1ca797ea7266c17373e67c603e19"
   },
   {
     "url": "static/favicon.png",
