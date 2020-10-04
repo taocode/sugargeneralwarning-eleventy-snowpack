@@ -1,0 +1,138 @@
+body {
+    /* text-align: center; */
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+@media only screen and (min-width: 380px) {
+    body {
+    font-size: 11pt;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    body {
+    font-size: 13pt;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    body {
+    font-size: 15pt;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 1.25em 0 0;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.1em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+p {
+    font-size: 1.25em;
+    margin: 1.0em 0;
+    line-height: 1.5em;
+
+}
+sup {
+    font-size: 0.6em;
+    font-weight: 400;
+}
+sup a {
+    /* color: navy; */
+    text-decoration: none;
+    padding: 0 0.1em 0.2em 0.2em;
+    font-style: italic;
+}
+sup a:hover {
+    text-decoration: underline;
+}
+ol {
+    margin-top: 1em;
+    padding: 1.5em 0 1em;
+    /* padding-left: 1em; */
+    list-style-position: inside;
+}
+
+ol li:target {
+    outline: 2px dashed blue;
+}
+ol ol {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    padding: 0 0 0.5em 1em;
+    list-style-type: lower-alpha;
+    line-height: 2;
+}
+.references ol li {
+    padding-left: 0.5em;
+    font-weight: 500;
+    font-style: italic;
+}
+.references ol li li {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.primary {
+    font-weight: 400;
+    font-size: 1.6em;
+    margin-top: 0.25em;
+    margin-bottom: 20vh;
+}
+.primary a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+.primary a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.lead {
+    font-size: 1.75em;
+    font-style: italic;
+    font-weight: 500;
+}
+.references {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+a {
+    transition: all 0.2s ease;
+}
+.permalink {
+    opacity: 0.1;
+    text-decoration-color: rgba(0,0,0,0.2);
+    vertical-align: super;
+    font-size: 0.7em;
+}
+:hover > .permalink {
+    opacity: 1;
+    text-decoration-color: blue;
+}
+:focus-within > .permalink {
+    opacity: 1;
+    text-decoration-color: blue;
+}
+:target .permalink {
+    opacity: 1;
+}
